@@ -9,6 +9,7 @@ sites:
     check: "tcp-ping"
     url: 8.8.8.8
     port: 53
+    icon: https://www.google.com/favicon.ico
   - name: Cludflare
     url: https://www.cloudflare.com
   - name: Cloudflare DNS 
