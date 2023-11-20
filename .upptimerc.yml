@@ -16,12 +16,14 @@ sites:
     check: "tcp-ping"
     url: 1.1.1.1
     port: 53
+    icon: https://www.cloudflare.com/favicon.ico
   - name: Cisco
     url: https://www.cisco.com
   - name: Cisco DNS 
     check: "tcp-ping"
     url: 208.67.222.222
     port: 53
+    icon: https://www.cisco.com/favicon.ico
 
 
 status-website:
