@@ -5,12 +5,23 @@ repo: upptime # The name of this repository
 sites:
   - name: Google
     url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Google DNS 
+    check: "tcp-ping"
+    url: 8.8.8.8
+    port: 53
+  - name: Cludflare
+    url: https://www.cloudflare.com
+  - name: Cloudflare DNS 
+    check: "tcp-ping"
+    url: 1.1.1.1
+    port: 53
+  - name: Cisco
+    url: https://www.cisco.com
+  - name: Cisco DNS 
+    check: "tcp-ping"
+    url: 208.67.222.222
+    port: 53
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
